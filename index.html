@@ -89,11 +89,51 @@
                   </svg>
             
               </button>
-              <form class="modal-form"></form>
+       
+                <form class="modal-form">
+
+ <h3 class="hero-form-titel">Залиште свої дані, ми вам передзвонимо</h3>
+
+<div class="hero-input-blok">
+<label class="hero-label"  for="name">Ім'я
+<input class="hero-input" type="text" name="name" id="name" />
+</label>
+<label class="hero-label" for="tel">Телефон
+<input class="hero-input" type="tel" name="tel" id="tel" />
+</label>
+<label class="hero-label" for="email">Пошта
+<input class="hero-input" type="email" name="email" id="email" />
+</label>
+<label class="textarea-label" for="coment">Коментар
+<textarea class="hero-coment" name="coment" id="coment" cols="30" rows="10"
+placeholder="Введіть текст">
+</textarea>
+</label>
+
+<div class="checkbox-icon-rectangle">
+  <svg class="icon-checkbox-rectangle" width="15" height="16">
+          <use href="./images/sprite3.svg#icon-Rectangle"></use>
+</svg>
+</div>
+<div class="checkbox-icon-checkbox">
+  <svg class="icon-checkbox-checkmark" width="13" height="1o">
+    <use href="./images/sprite3.svg#icon-checkbox"></use>
+  </svg>
+</div>
+<label class="hero-checkbox-blok" for="checkbox">
+    <!-- <input class="hero-checkbox" type="checkbox" name="checkbox" id="checkbox"/> -->
+<p class="hero-checkbox-titel">Погоджуюся з розсилкою та приймаю<span class="hero-checkbox-accent">Умови договору</span></p>
+</label>
+<button class="hero-form-button" type="submit">Відправити</button>
+</div>
+</div>
+
+              </form>
            </div>
           </div>
         </div>
       </section>
+
       <!--Our activity  -->
 
       <section class="our-activity-section section">
@@ -632,6 +672,8 @@
         </ul>
    </address>
    </div>
+
+   <!--  Footer social links -->
                     <div class="footer-icons footer-blok ">
             <p class="footer-icon-link-title">ПРИЄДНУЙТЕСЬ</p>
 
@@ -690,7 +732,24 @@
                 </a>
             </li>
           </ul>
-          </div>              
+          </div> 
+          
+          <!-- Footer form -->
+                    <div class="footer-form footer-blok">
+<h2 class="footer-form-titel">Підпишіться на розсилку</h2>
+<form class="footer-form" name="footer-form">
+<label for="email">
+<input class="mail-input" type="email" name="email" placeholder="E-mail" >
+</label>
+<button class="footer-form-btn" type="submit"> <p class="footer-btn-title">Підписатися</p> 
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white" />
+    </svg>
+
+</button>
+</form>
+          </div>
    
         </div>
     </footer>
