@@ -464,7 +464,7 @@ path {
 }
 .hero-checkbox-input {
   appearance: none;
-  position: absolute;
+  /* position: absolute; */
 }
 .hero-checkbox-label {
   display: block;
@@ -481,7 +481,7 @@ path {
   margin-left: 4px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .hero-checkbox-icon {
   background-image: url(../images/icons/icon-check.svg);
@@ -495,8 +495,12 @@ path {
 
   border: 2px solid var(--dark-bg-color);
   border-radius: 4px;
+  background-origin: border-box;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-checkbox-input:checked + .hero-checkbox-icon {
+  border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
 /* +_+_+_+_++_+_++_+_++_+__++ */
