@@ -384,7 +384,7 @@ path {
 
 .hero-input-blok {
   position: relative;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   /* display: flex;
   flex-direction: column; */
   margin-bottom: 10px;
@@ -415,7 +415,7 @@ path {
 
 /* ======================== */
 .hero-textarea-blok {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
@@ -432,6 +432,10 @@ path {
   /* height: 120px; */
   resize: none;
   margin-bottom: 20px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-textarea:hover {
+  border-color: var(--accent-color);
 }
 .textarea-label {
   font-family: "Roboto", sans-serif;
