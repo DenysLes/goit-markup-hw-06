@@ -467,6 +467,7 @@ path {
   position: absolute;
 }
 .hero-checkbox-label {
+  display: block;
   width: 400px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -483,12 +484,14 @@ path {
   color: #2196f3;
 }
 .hero-checkbox-icon {
+  background-image: url(../images/icons/icon-check.svg);
+  background-size: contain;
   position: absolute;
   left: 13px;
   top: 5px;
 
   width: 15px;
-  height: 16px;
+  height: 14px;
 
   border: 2px solid var(--dark-bg-color);
   border-radius: 4px;
