@@ -329,8 +329,22 @@ ul {
   height: 30px;
 }
 .modal-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   fill: #000;
 }
+/* .modal-btn:hover,
+.modal-btn:focus {
+  border-color: var(--accent-color);
+} */
+.modal-btn:hover path {
+  fill: var(--accent-color);
+}
+path {
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Hero form */
 
 .modal-form {
@@ -391,6 +405,9 @@ ul {
 .hero-input:focus + .hero-icon {
   fill: var(--accent-color);
 }
+.hero-input:hover {
+  border-color: var(--accent-color);
+}
 
 .hero-icon {
   position: absolute;
@@ -414,6 +431,7 @@ ul {
   width: 448px;
   height: 120px;
   resize: none;
+  margin-bottom: 20px;
 }
 .textarea-label {
   /* margin-bottom: 16px; */
