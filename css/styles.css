@@ -491,9 +491,9 @@ path {
   color: var(--accent-color);
 }
 .hero-checkbox-icon {
-  display: block;
+  display: flex;
   align-items: center;
-  justify-content: center;
+
   background-image: url(../images/icons/icon-check.svg);
   background-size: contain;
   /* position: absolute;
