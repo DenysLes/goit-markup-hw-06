@@ -465,7 +465,7 @@ path {
 }
 .hero-checkbox-input {
   appearance: none;
-  /* position: absolute; */
+  position: absolute;
 }
 .hero-checkbox-label {
   display: inline-block;
@@ -489,8 +489,8 @@ path {
   background-size: contain;
   position: absolute;
 
-  left: 15px;
-  top: 4px;
+  left: 14px;
+  top: 3px;
 
   /* margin-right: 7px; */
 
