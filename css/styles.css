@@ -338,7 +338,8 @@ ul {
 .modal-btn:focus {
   border-color: var(--accent-color);
 } */
-.modal-btn:hover path {
+.modal-btn:hover path,
+.modal-btn:focus path {
   fill: var(--accent-color);
 }
 path {
