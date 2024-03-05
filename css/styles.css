@@ -362,10 +362,15 @@ path {
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
 }
+
 .hero-form-titel {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   width: 448px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 23px;
+
   margin-bottom: 12px;
 
   font-family: "Roboto", sans-serif;
@@ -387,9 +392,8 @@ path {
 
 .hero-input-blok {
   position: relative;
-  /* outline: 1px solid tomato; */
-  /* display: flex;
-  flex-direction: column; */
+  outline: none;
+
   margin-bottom: 10px;
   width: 448px;
   height: 58px;
@@ -402,6 +406,7 @@ path {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-input:hover + .hero-icon,
 .hero-input:focus + .hero-icon {
@@ -415,15 +420,17 @@ path {
   position: absolute;
   top: 34px;
   left: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ======================== */
 .hero-textarea-blok {
-  /* outline: 1px solid tomato; */
+  outline: none;
   margin-right: auto;
   margin-left: auto;
   /* margin-bottom: 20px; */
   width: 448px;
+  /* height: 138px; */
 
   margin-bottom: 20px;
 }
