@@ -500,10 +500,6 @@ path {
 
   background-image: url(../images/icons/icon-check.svg);
   background-size: contain;
-  /* position: absolute;
-
-  left: 14px;
-  top: 3px; */
 
   width: 15px;
   height: 14px;
@@ -517,6 +513,10 @@ path {
 .hero-checkbox-input:checked + .hero-checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
+}
+
+.hero-checkbox-input:focus + .hero-checkbox-icon {
+  border-color: var(--accent-color);
 }
 /* +_+_+_+_++_+_++_+_++_+__++ */
 .hero-form-button {
