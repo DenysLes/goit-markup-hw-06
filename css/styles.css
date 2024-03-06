@@ -392,7 +392,6 @@ path {
 
 .hero-input-blok {
   position: relative;
-  outline: none;
 
   margin-bottom: 10px;
   width: 448px;
@@ -426,7 +425,6 @@ path {
 
 /* ======================== */
 .hero-textarea-blok {
-  outline: none;
   margin-right: auto;
   margin-left: auto;
   /* margin-bottom: 20px; */
@@ -459,11 +457,11 @@ path {
   color: #757575;
 }
 .hero-textarea::placeholder {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* ++++++++++++++++++++++++++ */
 
@@ -485,12 +483,12 @@ path {
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 
   margin-bottom: 20px;
 }
