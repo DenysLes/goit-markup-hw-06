@@ -528,6 +528,9 @@ path {
 .hero-checkbox-input:focus + .hero-checkbox-icon {
   border-color: var(--accent-color);
 }
+/* .hero-checkbox-input:not(:checked) + .hero-checkbox-icon {
+  border-color: var(--dark-bg-color);
+} */
 /* +_+_+_+_++_+_++_+_++_+__++ */
 .hero-form-button {
   display: flex;
