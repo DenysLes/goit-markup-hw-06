@@ -373,19 +373,19 @@ path {
 
   margin-bottom: 12px;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .hero-label {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* ===================== */
@@ -526,9 +526,7 @@ path {
 .hero-checkbox-input:focus + .hero-checkbox-icon {
   border-color: var(--accent-color);
 }
-/* .hero-checkbox-input:not(:checked) + .hero-checkbox-icon {
-  border-color: var(--dark-bg-color);
-} */
+
 /* +_+_+_+_++_+_++_+_++_+__++ */
 .hero-form-button {
   display: flex;
@@ -558,6 +556,7 @@ path {
 .hero-form-button:hover,
 .hero-form-button:focus {
   background-color: #188ce8;
+  /* outline: none; */
 }
 
 /* Our activity */
